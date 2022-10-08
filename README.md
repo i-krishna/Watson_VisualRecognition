@@ -67,20 +67,20 @@ Get the API access key credentials of the visual recognition service from your I
 We created a custom model that classifies dogs. We supplied a negative sample of cats. The JSON response below shows the training phase of the custom classifier dogs_2025763446
 
 <p float="left">
-  <img src="/screenshots/Custom%20dog%20classifier.jpg" /> 
+  <img src="/Screenshots/Custom%20dog%20classifier.jpg" /> 
 </p>
 
 Once the training is done, make a get request to see the status ready before passing test samples. 
 
 <p float="left">
-  <img src="/screenshots/Training%20done%20.png" /> 
+  <img src="/Screenshots/Training%20done%20.png" /> 
 </p>
 
 Below you find one positive (dog golden retreiver ) and one negative (apples) JSON responses when passed to custom classifier dogs_2025763446
 
 <p float="left">
-  <img src="/screenshots/Test_golden_retreiver.png" width="400" />
-  <img src="/screenshots/Test_apples.png" width="400" /> 
+  <img src="/Screenshots/Test_golden_retreiver.png" width="400" />
+  <img src="/Screenshots/Test_apples.png" width="400" /> 
 </p>
 
 [Documentation](https://cloud.ibm.com/docs/services/visual-recognition/customizing.html#customizing-size) specifies the WVR custom model limitations.
