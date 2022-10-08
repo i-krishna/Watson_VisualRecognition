@@ -1,5 +1,7 @@
 # Watson-Visual-Recognition (WVR) Summary
 
+
+
 # Bigger picture
 
 Watson has various services that you weave together to solve the user’s problem. Watson does not just know. It has to be taught. Cognitive systems are not programmed, they are trained. There are [five key Watson patterns](/Screenshots/Watson%20Patterns.png): [Engagement, Discovery, Decision, Policy, and Exploration](/Watson%20patterns%20description.pdf)
@@ -35,36 +37,28 @@ Get the API access key credentials of the visual recognition service from your I
 ## WVR Food model
 
 <p float="left">
-  <img src="https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/img_db/fruitbowl.jpg" width="400" />
-  <img src="https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/img_responses/Food.png" width="400" /> 
+  <img src="/img_db/fruitbowl.jpg" width="400" />
+  <img src="/img_responses/Food.png" width="400" /> 
 
 </p>
 
 ## WVR Face model
 
 <p float="left">
-  <img src="https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/img_db/ginni.jpg" width="400" />
-  <img src="https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/img_responses/Ginni.png" width="400" /> 
+  <img src="/img_db/ginni.jpg" width="400" />
+  <img src="/img_responses/Ginni.png" width="400" /> 
 
 </p>
-
-
-<p float="left">
-  <img src="https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/img_db/trump.jpeg" width="400" />
-  <img src="https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/img_responses/Trump.png" width="400" /> 
-
-</p>
-
 
 ### WVR General model
 <p float="left">
-  <img src="https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/img_db/chip.jpg" width="400" />
-  <img src="https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/img_responses/object.png" width="400" /> 
+  <img src="/img_db/chip.jpg" width="400" />
+  <img src="/object.png" width="400" /> 
 
 </p>
 
 <p float="left">
-  <img src="https://github.ibm.com/Krishna-Damarla1/img-db/blob/master/screenshots/General_model.png" /> 
+  <img src="/General_model.png" /> 
 </p>
 
 
@@ -73,20 +67,20 @@ Get the API access key credentials of the visual recognition service from your I
 We created a custom model that classifies dogs. We supplied a negative sample of cats. The JSON response below shows the training phase of the custom classifier dogs_2025763446
 
 <p float="left">
-  <img src="https://github.ibm.com/Krishna-Damarla1/img-db/blob/master/screenshots/Custom%20dog%20classifier.jpg" /> 
+  <img src="/screenshots/Custom%20dog%20classifier.jpg" /> 
 </p>
 
 Once the training is done, make a get request to see the status ready before passing test samples. 
 
 <p float="left">
-  <img src="https://github.ibm.com/Krishna-Damarla1/img-db/blob/master/screenshots/Training%20done%20.png" /> 
+  <img src="/screenshots/Training%20done%20.png" /> 
 </p>
 
 Below you find one positive (dog golden retreiver ) and one negative (apples) JSON responses when passed to custom classifier dogs_2025763446
 
 <p float="left">
-  <img src="https://github.ibm.com/Krishna-Damarla1/img-db/blob/master/screenshots/Test_golden_retreiver.png" width="400" />
-  <img src="https://github.ibm.com/Krishna-Damarla1/img-db/blob/master/screenshots/Test_apples.png" width="400" /> 
+  <img src="/screenshots/Test_golden_retreiver.png" width="400" />
+  <img src="/screenshots/Test_apples.png" width="400" /> 
 </p>
 
 [Documentation](https://cloud.ibm.com/docs/services/visual-recognition/customizing.html#customizing-size) specifies the WVR custom model limitations.
@@ -96,7 +90,7 @@ Below you find one positive (dog golden retreiver ) and one negative (apples) JS
 **Assertion 1**: [Documentation](https://cloud.ibm.com/apidocs/visual-recognition
 ) says that form parameter images_file can be a single file or a zip file with max 20 images. The maximum size of such a zip file is 100MB. Not ideal for cases of real-time video classification that takes more than 20 fps. 
 
-![alt text](https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/Screenshots/form%20parameter%20-%20image_file.png)
+![alt text](/Screenshots/form%20parameter%20-%20image_file.png)
 
 
 **Assertion 2**: When using the general model, it does not show all the objects like a apple within an image in JSON response. 
@@ -106,8 +100,8 @@ curl -X POST -u "apikey:m2SyTztvn6aR1PFI0i7Lyf9er4Jh8fANO6E0btcYWrAL" --form "im
 ```
 
 <p float="left">
-  <img src="https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/img_db/fruitbowl.jpg" width="400" />
-  <img src="https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/img_responses/Food.png" width="400" /> 
+  <img src="/img_db/fruitbowl.jpg" width="400" />
+  <img src="/img_responses/Food.png" width="400" /> 
 
 </p>
 
@@ -121,14 +115,14 @@ curl -X POST -u "apikey:m2SyTztvn6aR1PFI0i7Lyf9er4Jh8fANO6E0btcYWrAL" --form "im
 **Threshold of 0 and 0.5(default)**
 
 <p float="left">
-  <img src="https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/img_responses/Thresholds%20zero%20and%20point%205%20for%20food%20classifier.png" width="400" />
+  <img src="/img_responses/Thresholds%20zero%20and%20point%205%20for%20food%20classifier.png" width="400" />
 
 </p>
 
  **Threshold of 0.6, 0.9**
  
  <p float="left">
-  <img src="https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/img_responses/Threshold%20point%208%20and%20point%209%20food%20classifier.png" width="400" />
+  <img src="/img_responses/Threshold%20point%208%20and%20point%209%20food%20classifier.png" width="400" />
 
 </p>
  
@@ -141,13 +135,13 @@ curl -X POST -u "apikey:m2SyTztvn6aR1PFI0i7Lyf9er4Jh8fANO6E0btcYWrAL" --form "im
 **Default threshold of 0.5**
 
 <p float="left">
- <img src="https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/img_responses/default%20threshold%20response_Apples_red_green.png" width="400" /> 
+ <img src="/img_responses/default%20threshold%20response_Apples_red_green.png" width="400" /> 
 </p>
 
  **Threshold of 0.7, 0.8**
   
 <p float="left">
- <img src="https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/img_responses/Apples_green_red_rsponse_threshols_07_08.png" width="400" /> 
+ <img src="/img_responses/Apples_green_red_rsponse_threshols_07_08.png" width="400" /> 
 </p>
 
 # **Note:** 
@@ -164,9 +158,9 @@ curl -X POST -u "apikey:m2SyTztvn6aR1PFI0i7Lyf9er4Jh8fANO6E0btcYWrAL" --form "im
 curl -X POST -u "apikey:m2SyTztvn6aR1PFI0i7Lyf9er4Jh8fANO6E0btcYWrAL" --form "images_file=@/Users/krishna/Desktop/img_db/fruitbowl.jpg" "https://gateway.watsonplatform.net/visual-recognition/api/v3/detect_faces?version=2018-03-19"
 ```
 <p float="left">
- <img src="https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/img_db/fruitbowl.jpg" width="400" />
+ <img src="/img_db/fruitbowl.jpg" width="400" />
 
-<img src="https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/img_responses/Faces_detected_fruitbowl_response.png" width="400" /> 
+<img src="/img_responses/Faces_detected_fruitbowl_response.png" width="400" /> 
 </p>
 
 **Assertion 4**: [Documentation](https://cloud.ibm.com/apidocs/visual-recognition
@@ -178,9 +172,9 @@ curl -X POST -u "apikey:m2SyTztvn6aR1PFI0i7Lyf9er4Jh8fANO6E0btcYWrAL" --form "im
 
 <p float="left">
 
-<img src="https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/img_db/6_faces_in_single_image.jpg" width="400" />
+<img src="/img_db/6_faces_in_single_image.jpg" width="400" />
 
-<img src="https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/img_responses/6_faces_in_image.png" width="400" />
+<img src="/img_responses/6_faces_in_image.png" width="400" />
 /p>
 
 For such classification to happen, we have to explicitly pass the parameter detect_faces while submitting the image through curl request as shown below. Means, we have to know whether we are passing the face/object/food image before passing image.
@@ -193,32 +187,27 @@ curl -X POST -u "apikey:m2SyTztvn6aR1PFI0i7Lyf9er4Jh8fANO6E0btcYWrAL" --form "im
 
 <p float="left">
 
- <img src="https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/img_responses/6_faces_in_single_image.png" width="400" />
+ <img src="/img_responses/6_faces_in_single_image.png" width="400" />
 
 </p>
 
 **Assertion 6**: Delayed responses in cases of increased image files. 1st image below takes <1sec. While the next 2 zipped folders with 5 and 22 images take 2.5 and more than 8 seconds. 
 
 **Time = < 1sec for 1 file**
- <img src="https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/img_responses/single_image_response_time.png">
+ <img src="/img_responses/single_image_response_time.png">
 
 **Time = 2.5sec for 5 files**
- <img src="https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/img_responses/5_files_Zipped_response_time.png">
+ <img src="/img_responses/5_files_Zipped_response_time.png">
 
 **Time = >8 sec for 22 files**
- <img src="https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/Screenshots/22_files_zipped.png">
+ <img src="/Screenshots/22_files_zipped.png">
  
-**Detailed JSON response for 20 files** - Note that only 20 files are processed as specified in the documentation
-
-https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/json-response-22-files.json
+**Detailed JSON response for 20 files** - Note that only [20 files](/json-response-22-files.json) are processed as specified in the documentation 
 
 **Assertion 7**: We can observe from above-detailed JSON response that, images that have faces does not contain any information about their age/gender within the JSON response. Also, we passed images with combinations like images with face and food, food and text, food and hands. In such cases, the JSON responses are restricted to only one particular category. 
 
 **Assertion 8**: Current UI interface does not show any train button to upload images in custom model creation. Hence we trained our custom models by passing training datasets through curl request. Check below demo for further details.
 
-# Demo 
-
-https://ibm.ent.box.com/file/412237780722
 
 # Relevant studies
 
@@ -274,3 +263,4 @@ https://ibm.ent.box.com/file/412237780722
 - [Visual recognition - custom model video1](https://www.youtube.com/watch?v=o8xxZcmuc2Q)
 - [Visual recognition - custom model video2](https://www.youtube.com/watch?time_continue=14&v=3ArhBQ_QxkM)
 - [Visual recognition - Redbook](http://www.redbooks.ibm.com/redbooks/pdfs/sg248393.pdf)
+
