@@ -2,33 +2,31 @@
 
 # Bigger picture
 
-Watson has various services that you weave together to solve the user’s problem. Watson does not just know. It has to be taught. Cognitive systems are not programmed, they are trained. There are [five key Watson patterns](https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/Screenshots/Watson%20Patterns.png): [Engagement, Discovery, Decision, Policy, and Exploration](https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/Watson%20patterns%20description.pdf)
+Watson has various services that you weave together to solve the user’s problem. Watson does not just know. It has to be taught. Cognitive systems are not programmed, they are trained. There are [five key Watson patterns](/Screenshots/Watson%20Patterns.png): [Engagement, Discovery, Decision, Policy, and Exploration](/Watson%20patterns%20description.pdf)
 
 <p float="left">
    
-   <img src="https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/Screenshots/Cognitive%20computing-3%20divisions.png" />   
+   <img src="/Screenshots/Cognitive%20computing-3%20divisions.png" />   
     
-  <img src="https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/Screenshots/Watson%20api%20services%20overview.png" />  
+  <img src="/Screenshots/Watson%20api%20services%20overview.png" />  
   
-   <img src="https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/Screenshots/Watson%20api%20learning%20model.png" /> 
+   <img src="/Screenshots/Watson%20api%20learning%20model.png" /> 
 
 </p>
-
-slides taken from [Cognitive analytics community material](https://w3-connections.ibm.com/communities/service/html/communityview?communityUuid=45a3a33e-0cf5-4bb9-86bd-81ed23c7b861#fullpageWidgetId=W350fc0803e00_4321_888d_5cc460c8fbe1)
 
 # Discover - Vision - Visual Recognition 
 
 Let us look into Watson API learning model - [visual recognition](https://www.ibm.com/watson/services/visual-recognition/) further. WVR has **6 basic models** as shown below
 
-![alt text](https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/WVR-Models-IBMCloud.png)
+![alt text](/WVR-Models-IBMCloud.png)
 
 # Working of various models
  
 Consider a tyre image from the demo [here](https://www.ibm.com/watson/services/visual-recognition/demo/#demo) and go through the classification results as shown below
 
-![alt text](https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/blob/master/Working-demo-images-classified.png)
+![alt text](/Working-demo-images-classified.png)
 
-## From [curl](https://curl.haxx.se/) or [swagger](https://swagger.io/) or [postman](https://www.getpostman.com/), submit the images as input from ![img_db](https://github.ibm.com/Krishna-Damarla1/Watson-Visual-Recognition/tree/master/img_db)
+## From [curl](https://curl.haxx.se/) or [swagger](https://swagger.io/) or [postman](https://www.getpostman.com/), submit the images as input from ![img_db](/master/img_db)
 
 Get the API access key credentials of the visual recognition service from your IBM cloud account
 
@@ -276,4 +274,3 @@ https://ibm.ent.box.com/file/412237780722
 - [Visual recognition - custom model video1](https://www.youtube.com/watch?v=o8xxZcmuc2Q)
 - [Visual recognition - custom model video2](https://www.youtube.com/watch?time_continue=14&v=3ArhBQ_QxkM)
 - [Visual recognition - Redbook](http://www.redbooks.ibm.com/redbooks/pdfs/sg248393.pdf)
-
