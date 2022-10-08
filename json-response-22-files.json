@@ -1,0 +1,1259 @@
+{
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "pieplant",
+                            "score": 0.725,
+                            "type_hierarchy": "/plant/vegetable/pieplant"
+                        },
+                        {
+                            "class": "vegetable",
+                            "score": 0.89
+                        },
+                        {
+                            "class": "plant",
+                            "score": 0.973
+                        },
+                        {
+                            "class": "pie plant",
+                            "score": 0.586,
+                            "type_hierarchy": "/plant/herb/pie plant"
+                        },
+                        {
+                            "class": "herb",
+                            "score": 0.79
+                        },
+                        {
+                            "class": "chard",
+                            "score": 0.576,
+                            "type_hierarchy": "/plant/vegetable/leafy vegetable/chard"
+                        },
+                        {
+                            "class": "leafy vegetable",
+                            "score": 0.634
+                        },
+                        {
+                            "class": "rhubarb",
+                            "score": 0.5,
+                            "type_hierarchy": "/plant/herb/rhubarb"
+                        },
+                        {
+                            "class": "reddish purple color",
+                            "score": 0.901
+                        },
+                        {
+                            "class": "greenishness color",
+                            "score": 0.588
+                        }
+                    ]
+                }
+            ],
+            "image": "22_images_zipped.zip/22_images_zipped/vegetables.jpeg"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "jelly bean",
+                            "score": 0.603,
+                            "type_hierarchy": "/food/nutrition/delicacy/sweet/candy/jelly bean"
+                        },
+                        {
+                            "class": "candy",
+                            "score": 0.606
+                        },
+                        {
+                            "class": "sweet",
+                            "score": 0.607
+                        },
+                        {
+                            "class": "delicacy",
+                            "score": 0.61
+                        },
+                        {
+                            "class": "nutrition",
+                            "score": 0.78
+                        },
+                        {
+                            "class": "food",
+                            "score": 0.831
+                        },
+                        {
+                            "class": "couscous",
+                            "score": 0.581,
+                            "type_hierarchy": "/food/nutrition/dish/couscous"
+                        },
+                        {
+                            "class": "dish",
+                            "score": 0.67
+                        },
+                        {
+                            "class": "high-protein diet food",
+                            "score": 0.543,
+                            "type_hierarchy": "/food/diet (food)/high-protein diet food"
+                        },
+                        {
+                            "class": "diet (food)",
+                            "score": 0.569
+                        },
+                        {
+                            "class": "succotash",
+                            "score": 0.542,
+                            "type_hierarchy": "/food/nutrition/dish/succotash"
+                        },
+                        {
+                            "class": "corn",
+                            "score": 0.5,
+                            "type_hierarchy": "/fruit/seed/grain/corn"
+                        },
+                        {
+                            "class": "grain",
+                            "score": 0.5
+                        },
+                        {
+                            "class": "seed",
+                            "score": 0.5
+                        },
+                        {
+                            "class": "fruit",
+                            "score": 0.511
+                        },
+                        {
+                            "class": "food product",
+                            "score": 0.79
+                        },
+                        {
+                            "class": "vegetable",
+                            "score": 0.797
+                        },
+                        {
+                            "class": "lemon yellow color",
+                            "score": 0.817
+                        },
+                        {
+                            "class": "reddish orange color",
+                            "score": 0.764
+                        }
+                    ]
+                }
+            ],
+            "image": "22_images_zipped.zip/22_images_zipped/Fruits.jpeg"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "banana",
+                            "score": 0.562,
+                            "type_hierarchy": "/fruit/banana"
+                        },
+                        {
+                            "class": "fruit",
+                            "score": 0.788
+                        },
+                        {
+                            "class": "diet (food)",
+                            "score": 0.528,
+                            "type_hierarchy": "/food/diet (food)"
+                        },
+                        {
+                            "class": "food",
+                            "score": 0.528
+                        },
+                        {
+                            "class": "honeydew",
+                            "score": 0.5,
+                            "type_hierarchy": "/fruit/melon/honeydew"
+                        },
+                        {
+                            "class": "melon",
+                            "score": 0.501
+                        },
+                        {
+                            "class": "olive color",
+                            "score": 0.973
+                        },
+                        {
+                            "class": "lemon yellow color",
+                            "score": 0.789
+                        }
+                    ]
+                }
+            ],
+            "image": "22_images_zipped.zip/22_images_zipped/fruitbowl.jpg"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "teriyaki",
+                            "score": 0.61,
+                            "type_hierarchy": "/food/nutrition/dish/teriyaki"
+                        },
+                        {
+                            "class": "dish",
+                            "score": 0.679
+                        },
+                        {
+                            "class": "nutrition",
+                            "score": 0.685
+                        },
+                        {
+                            "class": "food",
+                            "score": 0.827
+                        },
+                        {
+                            "class": "balanced diet (food)",
+                            "score": 0.56,
+                            "type_hierarchy": "/food/diet (food)/balanced diet (food)"
+                        },
+                        {
+                            "class": "diet (food)",
+                            "score": 0.698
+                        },
+                        {
+                            "class": "viand",
+                            "score": 0.52,
+                            "type_hierarchy": "/food/nutrition/dish/viand"
+                        },
+                        {
+                            "class": "diabetic diet (food)",
+                            "score": 0.5,
+                            "type_hierarchy": "/food/diet (food)/diabetic diet (food)"
+                        },
+                        {
+                            "class": "bland diet (food)",
+                            "score": 0.5,
+                            "type_hierarchy": "/food/diet (food)/bland diet (food)"
+                        },
+                        {
+                            "class": "food product",
+                            "score": 0.799
+                        },
+                        {
+                            "class": "greenishness color",
+                            "score": 0.637
+                        },
+                        {
+                            "class": "olive color",
+                            "score": 0.589
+                        }
+                    ]
+                }
+            ],
+            "image": "22_images_zipped.zip/22_images_zipped/Text_n_food.jpeg"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "fast food",
+                            "score": 0.858,
+                            "type_hierarchy": "/food/nutrition/fast food"
+                        },
+                        {
+                            "class": "nutrition",
+                            "score": 0.96
+                        },
+                        {
+                            "class": "food",
+                            "score": 0.978
+                        },
+                        {
+                            "class": "hamburger",
+                            "score": 0.79,
+                            "type_hierarchy": "/food/nutrition/dish/sandwich/hamburger"
+                        },
+                        {
+                            "class": "sandwich",
+                            "score": 0.794
+                        },
+                        {
+                            "class": "dish",
+                            "score": 0.794
+                        },
+                        {
+                            "class": "hamburger bun",
+                            "score": 0.5,
+                            "type_hierarchy": "/food/food product/bread/bun/hamburger bun"
+                        },
+                        {
+                            "class": "bun",
+                            "score": 0.5
+                        },
+                        {
+                            "class": "bread",
+                            "score": 0.5
+                        },
+                        {
+                            "class": "food product",
+                            "score": 0.501
+                        },
+                        {
+                            "class": "light brown color",
+                            "score": 0.88
+                        },
+                        {
+                            "class": "reddish orange color",
+                            "score": 0.639
+                        }
+                    ]
+                }
+            ],
+            "image": "22_images_zipped.zip/22_images_zipped/Fast food.jpeg"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "beach strawberry",
+                            "score": 0.658,
+                            "type_hierarchy": "/plant/herb/beach strawberry"
+                        },
+                        {
+                            "class": "herb",
+                            "score": 0.658
+                        },
+                        {
+                            "class": "plant",
+                            "score": 0.765
+                        },
+                        {
+                            "class": "punnet (basket)",
+                            "score": 0.622,
+                            "type_hierarchy": "/handbasket/punnet (basket)"
+                        },
+                        {
+                            "class": "handbasket",
+                            "score": 0.622
+                        },
+                        {
+                            "class": "strawberry",
+                            "score": 0.608,
+                            "type_hierarchy": "/mound/embankment/strawberry"
+                        },
+                        {
+                            "class": "embankment",
+                            "score": 0.608
+                        },
+                        {
+                            "class": "mound",
+                            "score": 0.608
+                        },
+                        {
+                            "class": "berry",
+                            "score": 0.503,
+                            "type_hierarchy": "/fruit/berry"
+                        },
+                        {
+                            "class": "fruit",
+                            "score": 0.539
+                        },
+                        {
+                            "class": "wild raspberry",
+                            "score": 0.5,
+                            "type_hierarchy": "/plant/raspberry/wild raspberry"
+                        },
+                        {
+                            "class": "raspberry",
+                            "score": 0.559
+                        },
+                        {
+                            "class": "food",
+                            "score": 0.598
+                        },
+                        {
+                            "class": "greenishness color",
+                            "score": 0.813
+                        },
+                        {
+                            "class": "reddish orange color",
+                            "score": 0.529
+                        }
+                    ]
+                }
+            ],
+            "image": "22_images_zipped.zip/22_images_zipped/fruits_2.jpeg"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "pizzeria",
+                            "score": 0.767,
+                            "type_hierarchy": "/building/retail store/shop/pizzeria"
+                        },
+                        {
+                            "class": "shop",
+                            "score": 0.767
+                        },
+                        {
+                            "class": "retail store",
+                            "score": 0.767
+                        },
+                        {
+                            "class": "building",
+                            "score": 0.767
+                        },
+                        {
+                            "class": "pepperoni pizza",
+                            "score": 0.507,
+                            "type_hierarchy": "/food/nutrition/dish/pizza/pepperoni pizza"
+                        },
+                        {
+                            "class": "pizza",
+                            "score": 0.774
+                        },
+                        {
+                            "class": "dish",
+                            "score": 0.774
+                        },
+                        {
+                            "class": "nutrition",
+                            "score": 0.775
+                        },
+                        {
+                            "class": "food",
+                            "score": 0.775
+                        },
+                        {
+                            "class": "Sicilian pizza",
+                            "score": 0.5,
+                            "type_hierarchy": "/food/nutrition/dish/pizza/Sicilian pizza"
+                        },
+                        {
+                            "class": "food product",
+                            "score": 0.598
+                        },
+                        {
+                            "class": "Indian red color",
+                            "score": 0.96
+                        }
+                    ]
+                }
+            ],
+            "image": "22_images_zipped.zip/22_images_zipped/Face_n_food.jpeg"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "fast food",
+                            "score": 0.975,
+                            "type_hierarchy": "/food/nutrition/fast food"
+                        },
+                        {
+                            "class": "nutrition",
+                            "score": 0.975
+                        },
+                        {
+                            "class": "food",
+                            "score": 0.976
+                        },
+                        {
+                            "class": "food product",
+                            "score": 0.782
+                        },
+                        {
+                            "class": "chocolate color",
+                            "score": 0.944
+                        },
+                        {
+                            "class": "light brown color",
+                            "score": 0.621
+                        }
+                    ]
+                }
+            ],
+            "image": "22_images_zipped.zip/22_images_zipped/McD Meal.jpeg"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "person",
+                            "score": 0.598
+                        },
+                        {
+                            "class": "popcorn ball",
+                            "score": 0.524,
+                            "type_hierarchy": "/food/nutrition/delicacy/sweet/candy/popcorn ball"
+                        },
+                        {
+                            "class": "candy",
+                            "score": 0.524
+                        },
+                        {
+                            "class": "sweet",
+                            "score": 0.525
+                        },
+                        {
+                            "class": "delicacy",
+                            "score": 0.526
+                        },
+                        {
+                            "class": "nutrition",
+                            "score": 0.64
+                        },
+                        {
+                            "class": "food",
+                            "score": 0.641
+                        },
+                        {
+                            "class": "banquet",
+                            "score": 0.524,
+                            "type_hierarchy": "/food/nutrition/meal/banquet"
+                        },
+                        {
+                            "class": "meal",
+                            "score": 0.524
+                        },
+                        {
+                            "class": "Scotch egg",
+                            "score": 0.512,
+                            "type_hierarchy": "/food/nutrition/dish/Scotch egg"
+                        },
+                        {
+                            "class": "dish",
+                            "score": 0.512
+                        },
+                        {
+                            "class": "pitahaya",
+                            "score": 0.509,
+                            "type_hierarchy": "/fruit/pitahaya"
+                        },
+                        {
+                            "class": "fruit",
+                            "score": 0.558
+                        },
+                        {
+                            "class": "gong",
+                            "score": 0.508,
+                            "type_hierarchy": "/musical instrument/percussion instrument/gong"
+                        },
+                        {
+                            "class": "percussion instrument",
+                            "score": 0.512
+                        },
+                        {
+                            "class": "musical instrument",
+                            "score": 0.513
+                        },
+                        {
+                            "class": "Virginia oyster",
+                            "score": 0.502,
+                            "type_hierarchy": "/animal/invertebrate/shellfish/bivalve (animal with shell)/oyster/Virginia oyster"
+                        },
+                        {
+                            "class": "oyster",
+                            "score": 0.507
+                        },
+                        {
+                            "class": "bivalve (animal with shell)",
+                            "score": 0.508
+                        },
+                        {
+                            "class": "shellfish",
+                            "score": 0.511
+                        },
+                        {
+                            "class": "invertebrate",
+                            "score": 0.511
+                        },
+                        {
+                            "class": "animal",
+                            "score": 0.511
+                        },
+                        {
+                            "class": "mangosteen",
+                            "score": 0.5,
+                            "type_hierarchy": "/fruit/mangosteen"
+                        },
+                        {
+                            "class": "chestnut color",
+                            "score": 1
+                        }
+                    ]
+                }
+            ],
+            "image": "22_images_zipped.zip/22_images_zipped/hands_n_food.jpeg"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "banquet",
+                            "score": 0.737,
+                            "type_hierarchy": "/food/nutrition/meal/banquet"
+                        },
+                        {
+                            "class": "meal",
+                            "score": 0.881
+                        },
+                        {
+                            "class": "nutrition",
+                            "score": 0.929
+                        },
+                        {
+                            "class": "food",
+                            "score": 0.929
+                        },
+                        {
+                            "class": "potluck meal",
+                            "score": 0.65,
+                            "type_hierarchy": "/food/nutrition/meal/potluck meal"
+                        },
+                        {
+                            "class": "rijsttaffel",
+                            "score": 0.633,
+                            "type_hierarchy": "/food/nutrition/dish/rijsttaffel"
+                        },
+                        {
+                            "class": "dish",
+                            "score": 0.643
+                        },
+                        {
+                            "class": "smorgasbord",
+                            "score": 0.5,
+                            "type_hierarchy": "/food/nutrition/meal/smorgasbord"
+                        },
+                        {
+                            "class": "orange color",
+                            "score": 0.851
+                        },
+                        {
+                            "class": "Indian red color",
+                            "score": 0.691
+                        }
+                    ]
+                }
+            ],
+            "image": "22_images_zipped.zip/22_images_zipped/Less_pixels.jpeg"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "person",
+                            "score": 0.792
+                        },
+                        {
+                            "class": "portrait picture",
+                            "score": 0.958
+                        },
+                        {
+                            "class": "multiple portraits",
+                            "score": 0.5
+                        },
+                        {
+                            "class": "alizarine red color",
+                            "score": 0.732
+                        }
+                    ]
+                }
+            ],
+            "image": "22_images_zipped.zip/22_images_zipped/6_faces_in_single_image.jpg"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "high-vitamin diet food",
+                            "score": 0.619,
+                            "type_hierarchy": "/food/diet (food)/high-vitamin diet food"
+                        },
+                        {
+                            "class": "diet (food)",
+                            "score": 0.855
+                        },
+                        {
+                            "class": "food",
+                            "score": 0.924
+                        },
+                        {
+                            "class": "dietary (food)",
+                            "score": 0.599,
+                            "type_hierarchy": "/food/dietary (food)"
+                        },
+                        {
+                            "class": "macrobiotic diet food",
+                            "score": 0.542,
+                            "type_hierarchy": "/food/diet (food)/macrobiotic diet food"
+                        },
+                        {
+                            "class": "food ingredient",
+                            "score": 0.518,
+                            "type_hierarchy": "/food/food product/food ingredient"
+                        },
+                        {
+                            "class": "food product",
+                            "score": 0.521
+                        },
+                        {
+                            "class": "balanced diet (food)",
+                            "score": 0.501,
+                            "type_hierarchy": "/food/diet (food)/balanced diet (food)"
+                        },
+                        {
+                            "class": "diabetic diet (food)",
+                            "score": 0.5,
+                            "type_hierarchy": "/food/diet (food)/diabetic diet (food)"
+                        },
+                        {
+                            "class": "vegetable",
+                            "score": 0.796
+                        },
+                        {
+                            "class": "olive color",
+                            "score": 0.835
+                        },
+                        {
+                            "class": "chestnut color",
+                            "score": 0.823
+                        }
+                    ]
+                }
+            ],
+            "image": "22_images_zipped.zip/22_images_zipped/Many_foods.jpeg"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "potluck meal",
+                            "score": 0.615,
+                            "type_hierarchy": "/food/nutrition/meal/potluck meal"
+                        },
+                        {
+                            "class": "meal",
+                            "score": 0.722
+                        },
+                        {
+                            "class": "nutrition",
+                            "score": 0.814
+                        },
+                        {
+                            "class": "food",
+                            "score": 0.858
+                        },
+                        {
+                            "class": "galantine",
+                            "score": 0.595,
+                            "type_hierarchy": "/food/nutrition/dish/galantine"
+                        },
+                        {
+                            "class": "dish",
+                            "score": 0.596
+                        },
+                        {
+                            "class": "banquet",
+                            "score": 0.556,
+                            "type_hierarchy": "/food/nutrition/meal/banquet"
+                        },
+                        {
+                            "class": "food ingredient",
+                            "score": 0.543,
+                            "type_hierarchy": "/food/food product/food ingredient"
+                        },
+                        {
+                            "class": "food product",
+                            "score": 0.549
+                        },
+                        {
+                            "class": "potpourri",
+                            "score": 0.5,
+                            "type_hierarchy": "/toiletry/perfume/potpourri"
+                        },
+                        {
+                            "class": "perfume",
+                            "score": 0.5
+                        },
+                        {
+                            "class": "toiletry",
+                            "score": 0.5
+                        },
+                        {
+                            "class": "pale yellow color",
+                            "score": 0.913
+                        },
+                        {
+                            "class": "lemon yellow color",
+                            "score": 0.794
+                        }
+                    ]
+                }
+            ],
+            "image": "22_images_zipped.zip/22_images_zipped/Text_n_food_2.jpeg"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "circuit board",
+                            "score": 0.578,
+                            "type_hierarchy": "/electrical device/computer circuit/circuit board"
+                        },
+                        {
+                            "class": "computer circuit",
+                            "score": 0.755
+                        },
+                        {
+                            "class": "electrical device",
+                            "score": 0.757
+                        },
+                        {
+                            "class": "disk controller",
+                            "score": 0.553,
+                            "type_hierarchy": "/controller/disk controller"
+                        },
+                        {
+                            "class": "controller",
+                            "score": 0.558
+                        },
+                        {
+                            "class": "central processing unit",
+                            "score": 0.535
+                        },
+                        {
+                            "class": "PC board",
+                            "score": 0.501,
+                            "type_hierarchy": "/electrical device/computer circuit/PC board"
+                        },
+                        {
+                            "class": "CPU board",
+                            "score": 0.5,
+                            "type_hierarchy": "/electrical device/computer circuit/CPU board"
+                        },
+                        {
+                            "class": "electronic equipment",
+                            "score": 0.6
+                        },
+                        {
+                            "class": "memory device",
+                            "score": 0.599
+                        },
+                        {
+                            "class": "microchip",
+                            "score": 0.592
+                        },
+                        {
+                            "class": "jade green color",
+                            "score": 0.838
+                        },
+                        {
+                            "class": "emerald color",
+                            "score": 0.787
+                        }
+                    ]
+                }
+            ],
+            "image": "22_images_zipped.zip/22_images_zipped/chip.jpg"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "balanced diet (food)",
+                            "score": 0.62,
+                            "type_hierarchy": "/food/diet (food)/balanced diet (food)"
+                        },
+                        {
+                            "class": "diet (food)",
+                            "score": 0.922
+                        },
+                        {
+                            "class": "food",
+                            "score": 0.947
+                        },
+                        {
+                            "class": "diabetic diet (food)",
+                            "score": 0.586,
+                            "type_hierarchy": "/food/diet (food)/diabetic diet (food)"
+                        },
+                        {
+                            "class": "dietary (food)",
+                            "score": 0.531,
+                            "type_hierarchy": "/food/dietary (food)"
+                        },
+                        {
+                            "class": "bland diet (food)",
+                            "score": 0.506,
+                            "type_hierarchy": "/food/diet (food)/bland diet (food)"
+                        },
+                        {
+                            "class": "high-vitamin diet food",
+                            "score": 0.5,
+                            "type_hierarchy": "/food/diet (food)/high-vitamin diet food"
+                        },
+                        {
+                            "class": "olive color",
+                            "score": 0.963
+                        }
+                    ]
+                }
+            ],
+            "image": "22_images_zipped.zip/22_images_zipped/Fruits_n_bread.jpeg"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "elder statesman",
+                            "score": 0.613,
+                            "type_hierarchy": "/person/elder statesman"
+                        },
+                        {
+                            "class": "person",
+                            "score": 0.779
+                        },
+                        {
+                            "class": "Secretary of the Interior",
+                            "score": 0.532,
+                            "type_hierarchy": "/person/Secretary of the Interior"
+                        },
+                        {
+                            "class": "Treasury",
+                            "score": 0.525,
+                            "type_hierarchy": "/person/Treasury"
+                        },
+                        {
+                            "class": "people",
+                            "score": 0.5,
+                            "type_hierarchy": "/person/people"
+                        },
+                        {
+                            "class": "greenishness color",
+                            "score": 0.552
+                        }
+                    ]
+                }
+            ],
+            "image": "22_images_zipped.zip/22_images_zipped/trump.jpeg"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "gumdrop",
+                            "score": 0.566,
+                            "type_hierarchy": "/food/nutrition/delicacy/sweet/candy/gumdrop"
+                        },
+                        {
+                            "class": "candy",
+                            "score": 0.569
+                        },
+                        {
+                            "class": "sweet",
+                            "score": 0.572
+                        },
+                        {
+                            "class": "delicacy",
+                            "score": 0.577
+                        },
+                        {
+                            "class": "nutrition",
+                            "score": 0.647
+                        },
+                        {
+                            "class": "food",
+                            "score": 0.747
+                        },
+                        {
+                            "class": "dietary (food)",
+                            "score": 0.523,
+                            "type_hierarchy": "/food/dietary (food)"
+                        },
+                        {
+                            "class": "flower",
+                            "score": 0.517,
+                            "type_hierarchy": "/plant/flowering plant/flower"
+                        },
+                        {
+                            "class": "flowering plant",
+                            "score": 0.517
+                        },
+                        {
+                            "class": "plant",
+                            "score": 0.517
+                        },
+                        {
+                            "class": "garnish",
+                            "score": 0.514
+                        },
+                        {
+                            "class": "palette",
+                            "score": 0.506,
+                            "type_hierarchy": "/protective covering/shield/plate/palette"
+                        },
+                        {
+                            "class": "plate",
+                            "score": 0.512
+                        },
+                        {
+                            "class": "shield",
+                            "score": 0.512
+                        },
+                        {
+                            "class": "protective covering",
+                            "score": 0.512
+                        },
+                        {
+                            "class": "tutti-frutti",
+                            "score": 0.502,
+                            "type_hierarchy": "/food/nutrition/dessert/ice cream/tutti-frutti"
+                        },
+                        {
+                            "class": "ice cream",
+                            "score": 0.502
+                        },
+                        {
+                            "class": "dessert",
+                            "score": 0.502
+                        },
+                        {
+                            "class": "balanced diet (food)",
+                            "score": 0.5,
+                            "type_hierarchy": "/food/diet (food)/balanced diet (food)"
+                        },
+                        {
+                            "class": "diet (food)",
+                            "score": 0.508
+                        },
+                        {
+                            "class": "reddish orange color",
+                            "score": 0.745
+                        }
+                    ]
+                }
+            ],
+            "image": "22_images_zipped.zip/22_images_zipped/Fiber food.jpeg"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "chicken sandwich",
+                            "score": 0.893,
+                            "type_hierarchy": "/food/nutrition/dish/sandwich/chicken sandwich"
+                        },
+                        {
+                            "class": "sandwich",
+                            "score": 0.93
+                        },
+                        {
+                            "class": "dish",
+                            "score": 0.93
+                        },
+                        {
+                            "class": "nutrition",
+                            "score": 0.953
+                        },
+                        {
+                            "class": "food",
+                            "score": 0.953
+                        },
+                        {
+                            "class": "fast food",
+                            "score": 0.509,
+                            "type_hierarchy": "/food/nutrition/fast food"
+                        },
+                        {
+                            "class": "hamburger",
+                            "score": 0.5,
+                            "type_hierarchy": "/food/nutrition/dish/sandwich/hamburger"
+                        },
+                        {
+                            "class": "food product",
+                            "score": 0.799
+                        },
+                        {
+                            "class": "light brown color",
+                            "score": 0.915
+                        },
+                        {
+                            "class": "reddish orange color",
+                            "score": 0.683
+                        }
+                    ]
+                }
+            ],
+            "image": "22_images_zipped.zip/22_images_zipped/Burger.jpeg"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "official",
+                            "score": 0.62,
+                            "type_hierarchy": "/person/official"
+                        },
+                        {
+                            "class": "person",
+                            "score": 0.772
+                        },
+                        {
+                            "class": "state treasurer",
+                            "score": 0.544,
+                            "type_hierarchy": "/person/state treasurer"
+                        },
+                        {
+                            "class": "people",
+                            "score": 0.531,
+                            "type_hierarchy": "/person/people"
+                        },
+                        {
+                            "class": "resident commissioner",
+                            "score": 0.5,
+                            "type_hierarchy": "/person/resident commissioner"
+                        }
+                    ]
+                }
+            ],
+            "image": "22_images_zipped.zip/22_images_zipped/ginni.jpg"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "spaghetti",
+                            "score": 0.642,
+                            "type_hierarchy": "/food/nutrition/dish/pasta/spaghetti"
+                        },
+                        {
+                            "class": "pasta",
+                            "score": 0.653
+                        },
+                        {
+                            "class": "dish",
+                            "score": 0.811
+                        },
+                        {
+                            "class": "nutrition",
+                            "score": 0.813
+                        },
+                        {
+                            "class": "food",
+                            "score": 0.813
+                        },
+                        {
+                            "class": "coleslaw",
+                            "score": 0.531,
+                            "type_hierarchy": "/food/nutrition/dish/salad/coleslaw"
+                        },
+                        {
+                            "class": "salad",
+                            "score": 0.532
+                        },
+                        {
+                            "class": "wok",
+                            "score": 0.512,
+                            "type_hierarchy": "/utensil/cooking pan/wok"
+                        },
+                        {
+                            "class": "cooking pan",
+                            "score": 0.514
+                        },
+                        {
+                            "class": "utensil",
+                            "score": 0.514
+                        },
+                        {
+                            "class": "chow mein",
+                            "score": 0.511,
+                            "type_hierarchy": "/food/nutrition/dish/chow mein"
+                        },
+                        {
+                            "class": "chop suey",
+                            "score": 0.5,
+                            "type_hierarchy": "/food/nutrition/dish/chop suey"
+                        },
+                        {
+                            "class": "food product",
+                            "score": 0.79
+                        },
+                        {
+                            "class": "tableware",
+                            "score": 0.797
+                        },
+                        {
+                            "class": "greenishness color",
+                            "score": 0.915
+                        }
+                    ]
+                }
+            ],
+            "image": "22_images_zipped.zip/22_images_zipped/chorizo.jpeg"
+        }
+    ],
+    "images_processed": 20,
+    "custom_classes": 0,
+    "warnings": [
+        {
+            "description": "Max number of images (20) reached",
+            "warning_id": "batch_limit_reached"
+        }
+    ]
+}
+
